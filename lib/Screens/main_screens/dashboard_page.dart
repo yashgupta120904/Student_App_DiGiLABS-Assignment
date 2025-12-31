@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:student_app/Screens/auth_screens/login_screen.dart';
-import 'package:student_app/Screens/main_screens/attendance_screen.dart';
-import 'package:student_app/Screens/main_screens/marks_screen.dart';
-import 'package:student_app/Screens/main_screens/profile_screen.dart';
-import 'package:student_app/Screens/main_screens/widgets/announcement_page.dart';
-import 'package:student_app/Screens/main_screens/widgets/assisgnment_page.dart';
-import 'package:student_app/Screens/main_screens/widgets/fee_page.dart';
-import 'package:student_app/Screens/main_screens/widgets/leave_request.dart';
-import 'package:student_app/Screens/main_screens/widgets/timetable_page.dart';
+import 'package:student_app/Screens/main_screens/attendance_page.dart';
+import 'package:student_app/Screens/main_screens/marks_page.dart';
+import 'package:student_app/Screens/main_screens/profile_page.dart';
+import 'package:student_app/Screens/main_screens/announcement_page.dart';
+import 'package:student_app/Screens/main_screens/assisgnment_page.dart';
+import 'package:student_app/Screens/main_screens/fee_page.dart';
+import 'package:student_app/Screens/main_screens/leave_request.dart';
+import 'package:student_app/Screens/main_screens/timetable_page.dart';
+
+import 'announcement_page.dart';
 
 
 class DashboardPage extends StatefulWidget {
